@@ -4,7 +4,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # === CONFIGURAÇÕES ===
-EMAIL_DESTINO = "thiagomendesribeiro01@gmail.com"
+EMAIL_DESTINO = "ricardo.gsse@gmail.com"
 
 st.set_page_config(page_title="Questionário Recanorte", layout="centered")
 st.title("Questionário Unificado - RECANORTE")
