@@ -65,7 +65,7 @@ if st.button("Enviar respostas"):
     try:
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.starttls()
-        server.login("seu_email@gmail.com", "SUA_SENHA_DE_APP")
+        server.login("ricardo.gsse@gmail.com", "faivmhifbzmunplw")
         server.send_message(msg)
         server.quit()
         st.success("Respostas enviadas com sucesso!")
