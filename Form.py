@@ -10,7 +10,7 @@ st.set_page_config(page_title="Questionário Recanorte", layout="centered")
 st.image("a292de41-0aae-4c0d-943f-4d78c5d5c5fd.png", width=120)
 st.title("Questionário - RECANORTE")
 st.markdown("""
-### Este questionário tem como finalidade pesquisa para o curso de Administração da PUC Minas.  
+### Este é um estudo realizado pela empresa RECANORTE em parceria com os alunos do curso de Administração EAD da PUC Minas.  
 Os dados serão tratados dentro das legalidades exigidas pela **Lei Geral de Proteção de Dados (LGPD)**.
 """)
 
