@@ -7,7 +7,11 @@ from email.mime.multipart import MIMEMultipart
 EMAIL_DESTINO = "ricardo.gsse@gmail.com"
 
 st.set_page_config(page_title="Questionário Recanorte", layout="centered")
-st.title("Questionário Unificado - RECANORTE")
+st.title("Questionário - RECANORTE")
+st.markdown("""
+### Este questionário tem como finalidade pesquisa para o curso de Administração da PUC Minas.  
+Os dados serão tratados dentro das legalidades exigidas pela **Lei Geral de Proteção de Dados (LGPD)**.
+""")
 
 # === IDENTIFICAÇÃO ===
 tipo_pessoa = st.radio("Você é Pessoa Física ou Jurídica?", ["Pessoa Física", "Pessoa Jurídica"], horizontal=True)
