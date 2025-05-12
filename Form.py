@@ -7,6 +7,7 @@ from email.mime.multipart import MIMEMultipart
 EMAIL_DESTINO = "ricardo.gsse@gmail.com"
 
 st.set_page_config(page_title="Questionário Recanorte", layout="centered")
+st.image("a292de41-0aae-4c0d-943f-4d78c5d5c5fd.png", width=120)
 st.title("Questionário - RECANORTE")
 st.markdown("""
 ### Este questionário tem como finalidade pesquisa para o curso de Administração da PUC Minas.  
